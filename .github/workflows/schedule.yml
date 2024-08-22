@@ -3,6 +3,7 @@ on:
   schedule:
     - cron: "*/1 * * * *"
   # Manual triggers with workflow_dispatch
+  # testing
   workflow_dispatch:
 jobs:
   update-gist:
